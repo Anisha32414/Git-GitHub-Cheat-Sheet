@@ -1,0 +1,2 @@
+* git commit -m "commit_message"                  // -m ---> message to show, message can be initial commit, updated files, etc.
+* git push origiin main                           // to push the code from local computer to remote folder on github
