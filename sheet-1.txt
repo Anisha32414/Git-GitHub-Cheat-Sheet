@@ -1,0 +1,31 @@
+* git config --global user.name "user_name_on_github"             // name on github
+* git config --global user.email "email_linked_to_github"         // email on github
+* git config --list                                               // list of items you set so far (user name, user email)
+
+* git clone http://github.com/repo_name.git                       // used to clone a repo from github to local computer without downloading zip file
+
+
+VS code folder look like:
+
+folder1
+  |__repo_name
+         |__file1.txt
+         |__file2.txt
+
+git is initialized in folder1 for shifting git from forlder1 to repo_name we uses :cd ---> change directory
+* ex: cd repo_name
+
+* clear                                                          // used to clear the terminal on vs code
+* ls                                                             // list files in repo_name (file1.txt, file2.txt)
+* ls -h                                                          // list hidden files in repo
+* git status                                                     // shows if there any changes made in files to commit
+  
+   // There are 4 types of status git can show
+       |__Modified --> Changes made in exiting files
+       |__Unmodified  --> No changes made in existing files
+       |__Untracked --> new files that git does not yet track     (files that are newly created and never commited before)
+       |__Staged --> files that are ready to commit               (after --> git add .)
+
+* git add "file3"                                                // add only file3 to commit
+* git add .                                                      // add all files listed during (git status) command to commit
+
