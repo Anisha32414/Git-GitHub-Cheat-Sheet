@@ -1,2 +1,23 @@
 * git commit -m "commit_message"                  // -m ---> message to show, message can be initial commit, updated files, etc.
 * git push origiin main                           // to push the code from local computer to remote folder on github
+
+
+* git init                                        // used to initialize git in new repo
+* cd ..                                           // to come outside the current folder --> if you in sub1 so you will come outside it in folder1
+   folder1
+      |__sub1
+      |   |__f1.py
+      |   |__f2.py
+      |
+      |__sub2
+          |__f3.py
+
+* mkdir "foler_name"                              // used to create new folder as folder_name inside folder1  (mkdir --> make directory)
+
+
+* git init                                        // used to initialize git in new repo
+* git remote add origin <repo_link>               // It connects our local repository to remote repository on github
+* git remote -v                                   // used to verify the repo
+* git branch                                      // tells the current branch  --> generally it is "master" we have to change it to "main"
+* git branch -M main                              // rename branch from master to main
+* git push origin main                            // push the code from local repo to remote repo(github)
