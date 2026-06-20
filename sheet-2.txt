@@ -1,5 +1,5 @@
 * git commit -m "commit_message"                  // -m ---> message to show, message can be initial commit, updated files, etc.
-* git push origiin main                           // to push the code from local computer to remote folder on github
+* git push origin main                           // to push the code from local computer to remote folder on github
 
 
 * git init                                        // used to initialize git in new repo
