@@ -21,3 +21,7 @@
 * git branch                                      // tells the current branch  --> generally it is "master" we have to change it to "main"
 * git branch -M main                              // rename branch from master to main
 * git push origin main                            // push the code from local repo to remote repo(github)
+
+* git push -u origin main                         // it is used to avoid writing full command "git push origin main" every time
+  |
+  |__ we can write only "git push" once we use this command  
