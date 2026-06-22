@@ -1,0 +1,8 @@
+## Branch Commands:-
+
+* git branch                              // Used to check the branch in which we are
+* git branch -M main                      // used to rename the Master branch name to Main
+* git checkout "Branch_name"              // used to checkout from current branch and to go in branch "Branch_name"
+* git checkout -b "New_Branch_Name"       // used to checkout from current branch and to create new branch "New_Branch_Name"
+
+* git branch -d "branch_name"             // used to delete branch "branch_name"
