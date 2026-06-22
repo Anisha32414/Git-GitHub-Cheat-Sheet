@@ -5,4 +5,6 @@
 * git checkout "Branch_name"              // used to checkout from current branch and to go in branch "Branch_name"
 * git checkout -b "New_Branch_Name"       // used to checkout from current branch and to create new branch "New_Branch_Name"
 
-* git branch -d "branch_name"             // used to delete branch "branch_name"
+
+* git branch -d "branch_name"             // used to delete branch "branch_name" from vs code only
+* git push origin --delete branch1        // used to delete branch from GitHub 

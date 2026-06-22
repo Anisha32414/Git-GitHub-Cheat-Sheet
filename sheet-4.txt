@@ -1,0 +1,23 @@
+## Merge commands:-
+
+* git diff "branch_name"                      // used to compare the difference like new files, updation, deletion etc.
+* git merge "branch_name"                     // used to merge two brances
+
+
+// We can use PR(pull request) as well on github to merge two brances.
+
+* git pull origin main                       // used to copy exact code from remote repo to local repo.
+
+## sometimes conflict may occur when trying to merge brances if the changes made are in 
+   same file or same line of code. In that case the GitHub will show the code of both the 
+   line together and ask us to keep which one or keep both.
+
+   option we have
+   |__keep main code
+   |__keep branch code
+   |__keep both code
+
+If we want to make changes manually without choosing an option so firstly we have to remove symbols like:
+|__<<<<<<<<<<<<<<<<<<
+|__>>>>>>>>>>>>>>>>>>
+|__==================

@@ -1,0 +1,20 @@
+## Undoing changes:-
+
+(1) Staged changes - when we make changes in a file and then add those changes but didn't 
+                     commit and what to undo those changes so we use following commands
+
+                     * git reset "file1"                   // undo the changes of file1 only
+                     * git reset                           // undo the changes of all the files 
+
+(2) Commit changes - when we commit some changes that we want to undo.
+                      
+                     * git reset HEAD~1                   // used to go 1 commit back
+                     |
+                     |__ github stores the record of all commits and by default 
+                         the latest commit is known as HEAD...by writing HEAD~1 we cancel 
+                         the latest commit and go one commit back.
+
+(3) When we want to undo multiple commits -  a commit has a specefic hash code that is used in undoing multiple commits.
+
+                     * git reset "hash_code"                 // used to undo multiple commits
+                     * git log                               // used to get info of previous commits with there hash code
