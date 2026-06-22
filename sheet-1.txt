@@ -28,4 +28,4 @@ git is initialized in folder1 for shifting git from forlder1 to repo_name we use
 
 * git add "file3"                                                // add only file3 to commit
 * git add .                                                      // add all files listed during (git status) command to commit
-
+* git add ../floder/file.txt                                     // add file inside a particular folder
