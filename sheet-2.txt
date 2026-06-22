@@ -3,7 +3,7 @@
 
 
 * git init                                        // used to initialize git in new repo
-* cd ..                                           // to come outside the current folder --> if you in sub1 so you will come outside it in folder1
+* cd ..                                           // to come outside the current folder --> if you in sub1 so you will come outside it --> in folder1
    folder1
       |__sub1
       |   |__f1.py
